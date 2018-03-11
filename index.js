@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
         return {
           author,
           name,
-          discription: item.content,
+          description: item.content,
           href: item.link,
         }
       })
